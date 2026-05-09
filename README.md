@@ -21,7 +21,7 @@ Atualmente cursando Ciência da Computação na **Unicid**. Sou apaixonado por r
  #### 🎮 Game Dev & Engenharia
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Voxel Engine** | Clone de Minecraft com sistema de craft e geração procedural. | [Ver Projeto](./projeto-minecraft/) |
+
 | **Neumorphic Tool** | Gerador de UI dinâmico com cálculos de luz e sombra. | [Ver Projeto](./projeto-neumorfismo/) |
 
  #### 🏛 Design & UX
