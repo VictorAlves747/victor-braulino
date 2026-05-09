@@ -18,10 +18,10 @@ Atualmente cursando Ciência da Computação na **Unicid**. Sou apaixonado por r
 ---
  ### 📂 Portfólio de Projetos
  
- #### 🎮 Game Dev & Engenharia
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| **Neumorphic Tool** | Gerador de UI dinâmico com cálculos de luz e sombra. | [Ver Projeto](./projeto-neumorfismo/) |
+| Projeto | Tecnologia Principal | Visualizar |
+| :--- | :---: | :--- |
+| **🎨 ModelColor v2.6** | `React` `Firebase` | [Explorar Projeto](./projeto-neumorfismo/) |
+| **🤖 Teachable Machine** | `IA / ML` `TensorFlow` | [Ver Atividade](./projeto-teachable-machine/) |
 
  #### 🏛 Design & UX
 | Projeto | Descrição | Link |
