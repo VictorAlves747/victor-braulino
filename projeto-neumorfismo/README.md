@@ -4,7 +4,7 @@
 Este projeto é uma ferramenta interativa...
 
 
-![Interface do Gerador](portifolio2.png)
+![Interface do Gerador](imagem portifolio.png)
 
 ## 🚀 Tecnologias Utilizadas
 * JavaScript...
