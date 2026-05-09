@@ -21,13 +21,9 @@ Atualmente cursando Ciência da Computação na **Unicid**. Sou apaixonado por r
 | Projeto | Tecnologia Principal | Visualizar |
 | :--- | :---: | :--- |
 | **🎨 ModelColor v2.6** | `React` `Firebase` | [Explorar Projeto](./projeto-neumorfismo/) |
-| **⚔️ Batalha de Modelos** | `Prompt Engineering` `XML` | [Ver Comparativo](./batalha-de-modelos-ia/) |
-| **🤖 Teachable Machine** | `IA / ML` `TensorFlow` | [Ver Atividade](./projeto-teachable-machine/) |
-
- #### 🏛 Design & UX
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| **Redesign Reddit** | Melhoria de interface e arquitetura de informação do "Old Reddit". | [Ver Projeto](./projeto-reddit/) |
+| **⚔️ Batalha de Modelos** | `Prompt Engineering` | [Ver Comparativo](./batalha-de-modelos-ia/) |
+| **🔍 Engenharia Reversa** | `Ética` `Análise de IA` | [Ver Estudo](./engenharia-reversa-ia/) |
+| **🤖 Teachable Machine** | `IA / ML` | [Ver Atividade](./projeto-teachable-machine/) |
 
 ---
  ### 🏗 Estrutura do Repositório
