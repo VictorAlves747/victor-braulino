@@ -5,7 +5,7 @@ Este projeto foi desenvolvido como uma atividade prática de introdução à **I
 
 O objetivo foi entender o fluxo de trabalho de uma IA: coleta de dados, treinamento do modelo e teste de acurácia.
 
-> 📄 **Documentação Técnica:** [Visualizar PDF da Atividade](./NOME_DO_SEU_ARQUIVO.pdf)
+> 📄 **Documentação Técnica:** [Visualizar PDF da Atividade](./Teachable.pdf)
 
 ---
 
