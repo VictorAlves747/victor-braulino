@@ -1,48 +1,38 @@
-# 🚀 FinEdu AI - Gestão Financeira com IA
+# 🚀 FinEdu AI - Gestão Financeira Local com IA
 
-> **Status do Projeto:** Em desenvolvimento / Estudo acadêmico (UNICID)
+> **Status:** Full-stack | Foco em Educação Financeira | Estudo Acadêmico (UNICID)
 
-Plataforma Full-stack de gestão financeira pessoal desenvolvida para auxiliar usuários iniciantes na organização de gastos e introdução ao mundo dos investimentos, com arquitetura preparada para integração com Inteligência Artificial.
-
----
-
-## 🌟 Destaques e Funcionalidades
-
-O **FinEdu AI** foi projetado com os padrões modernos de uma fintech:
-
-* **📊 Dashboard Completo:** Visualização em tempo real de receitas, despesas e saldo mensal com gráficos interativos (Recharts).
-* **🔐 Autenticação Segura:** Sistema de login com JWT (cookies HttpOnly), criptografia de senha com Bcrypt e proteção de rotas.
-* **💡 Recomendações Inteligentes:** Algoritmo educativo que sugere investimentos (CDB, Selic, FIIs) com base no perfil e saldo do usuário.
-* **🤖 Chatbot Financeiro:** Interface moderna para tirar dúvidas sobre finanças, preparada para conexão com a API da OpenAI (GPT-4o).
-* **📱 Responsividade:** Layout totalmente adaptável para dispositivos móveis e desktop usando Tailwind CSS.
+O **FinEdu AI** é uma plataforma de gestão financeira pessoal que ajuda iniciantes a controlarem gastos e entenderem sobre investimentos. Diferente de aplicações complexas, esta versão foi projetada para rodar **localmente de forma simples**, utilizando SQLite para persistência de dados, eliminando a necessidade de configurações pesadas de banco de dados.
 
 ---
 
-## 🛠️ Stack Tecnológica
+## 🌟 Funcionalidades Principais
 
-### **Frontend**
-* **Framework:** Next.js 14 (App Router)
-* **Linguagem:** TypeScript
-* **Estilização:** Tailwind CSS
-* **Biblioteca de Gráficos:** Recharts
-* **Ícones:** Lucide React
-
-### **Backend & Infraestrutura**
-* **Runtime:** Node.js
-* **ORM:** Prisma (PostgreSQL)
-* **Segurança:** JWT, BcryptJS, Zod (validação)
-* **Containerização:** Docker & Docker Compose
+* **📊 Dashboard Inteligente:** Gráficos de despesas por categoria e evolução financeira usando **Recharts**.
+* **💸 Controle Total:** CRUD completo de receitas e despesas (fixas e variáveis) com cálculo automático de saldo.
+* **🧠 Recomendações Educativas:** Sugestões baseadas em dados reais de investimentos (Tesouro Selic, CDB, LCI/LCA, FIIs e ETFs).
+* **🤖 Chatbot Financeiro:** Assistente para dúvidas financeiras com suporte a IA (OpenAI) e modo de fallback local.
+* **🔒 Segurança:** Autenticação com JWT em cookies HttpOnly e criptografia de senhas com Bcrypt.
+* **📱 Interface Moderna:** Design estilo fintech, responsivo e com suporte a Skeletons e Toasts para melhor UX.
 
 ---
 
-## 📁 Arquitetura do Sistema
+## 🛠️ Tecnologias Utilizadas
 
-O projeto utiliza uma arquitetura full stack moderna, separando responsabilidades por camadas:
+* **Framework:** Next.js (App Router) + React + TypeScript
+* **Estilização:** Tailwind CSS + Lucide React
+* **Banco de Dados:** SQLite (Prisma ORM) - *Roda localmente sem configuração externa*
+* **Validação:** Zod
+* **IA:** OpenAI SDK (Integrado)
+
+---
+
+## 📁 Estrutura de Pastas
 
 ```txt
-src/
- ├── app/             # Rotas, Páginas e API Routes (Next.js)
- ├── components/      # Componentes de UI e Reutilizáveis
- ├── lib/             # Configurações globais e Utilitários
- ├── services/        # Lógica de IA e Regras de Negócio
- └── prisma/          # Modelagem do Banco de Dados
+finedu-ai/
+  ├── prisma/          # Schema do banco e scripts de setup (SQLite)
+  ├── src/app/         # Rotas da aplicação e API Routes
+  ├── src/components/  # UI Components (Dashboards, Forms, Layout)
+  ├── src/services/    # Lógica do Chatbot e Recomendações de IA
+  └── src/lib/         # Utilitários, autenticação e validações
