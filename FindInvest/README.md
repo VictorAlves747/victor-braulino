@@ -1,69 +1,48 @@
-🚀 FinEdu AI - Gestão Financeira com IA
-O FinEdu AI é uma plataforma Full-stack de gestão financeira pessoal e educação para investimentos. O projeto foi arquitetado para simular um produto real de mercado (fintech), unindo organização financeira, visualização de dados e inteligência artificial.
+# 🚀 FinEdu AI - Gestão Financeira com IA
 
-🌟 Destaques do Projeto
-Arquitetura Empresarial: Divisão clara entre camadas (UI, Regras de Negócio, API e Banco de Dados), utilizando o App Router do Next.js.
+> **Status do Projeto:** Em desenvolvimento / Estudo acadêmico (UNICID)
 
-Gestão de Dados: Sistema completo de CRUD para receitas e despesas, com cálculos automáticos de saldo e percentual de comprometimento de renda.
+Plataforma Full-stack de gestão financeira pessoal desenvolvida para auxiliar usuários iniciantes na organização de gastos e introdução ao mundo dos investimentos, com arquitetura preparada para integração com Inteligência Artificial.
 
-Dashboards Interativos: Visualização de métricas e evolução financeira através de gráficos dinâmicos com Recharts.
+---
 
-Chatbot Educativo: Interface de chat para suporte financeiro, preparada para integração com a API da OpenAI.
+## 🌟 Destaques e Funcionalidades
 
-Segurança Avançada: Autenticação robusta com JWT em cookies HttpOnly, senhas criptografadas com Bcrypt e validação de dados com Zod.
+O **FinEdu AI** foi projetado com os padrões modernos de uma fintech:
 
-🛠️ Tecnologias Utilizadas
-Frontend
-Next.js 14 (App Router)
+* **📊 Dashboard Completo:** Visualização em tempo real de receitas, despesas e saldo mensal com gráficos interativos (Recharts).
+* **🔐 Autenticação Segura:** Sistema de login com JWT (cookies HttpOnly), criptografia de senha com Bcrypt e proteção de rotas.
+* **💡 Recomendações Inteligentes:** Algoritmo educativo que sugere investimentos (CDB, Selic, FIIs) com base no perfil e saldo do usuário.
+* **🤖 Chatbot Financeiro:** Interface moderna para tirar dúvidas sobre finanças, preparada para conexão com a API da OpenAI (GPT-4o).
+* **📱 Responsividade:** Layout totalmente adaptável para dispositivos móveis e desktop usando Tailwind CSS.
 
-React & TypeScript
+---
 
-Tailwind CSS (Estilização responsiva)
+## 🛠️ Stack Tecnológica
 
-Lucide React (Ícones)
+### **Frontend**
+* **Framework:** Next.js 14 (App Router)
+* **Linguagem:** TypeScript
+* **Estilização:** Tailwind CSS
+* **Biblioteca de Gráficos:** Recharts
+* **Ícones:** Lucide React
 
-Backend & Banco de Dados
-Node.js com Next.js API Routes
+### **Backend & Infraestrutura**
+* **Runtime:** Node.js
+* **ORM:** Prisma (PostgreSQL)
+* **Segurança:** JWT, BcryptJS, Zod (validação)
+* **Containerização:** Docker & Docker Compose
 
-Prisma ORM (Modelagem e consultas)
+---
 
-PostgreSQL (Banco de dados relacional via Docker)
+## 📁 Arquitetura do Sistema
 
-JWT & Bcrypt (Segurança e Autenticação)
+O projeto utiliza uma arquitetura full stack moderna, separando responsabilidades por camadas:
 
-📁 Estrutura do Projeto
-O projeto segue uma estrutura organizada para facilitar a manutenção e escalabilidade:
-
-/src/app: Rotas e páginas da aplicação.
-
-/src/api: Endpoints do backend.
-
-/src/components: Componentes de UI reutilizáveis (Atomic Design).
-
-/src/lib & /src/services: Lógica de negócio, serviços de IA e utilitários.
-
-/prisma: Esquema do banco de dados e sementes (seeds) para teste.
-
-🚀 Como Executar
-Clonar e Instalar:
-
-Bash
-git clone https://github.com/VictorAlves747/finedu-ai.git
-npm install
-Ambiente:
-Crie um arquivo .env com base no .env.example.
-
-Banco de Dados (Docker):
-
-Bash
-docker compose up -d
-npm run prisma:generate
-npm run prisma:migrate -- --name init
-Rodar:
-
-Bash
-npm run dev
-👤 Autor
-Victor Alves Rodrigues Braulino
-🎓 Ciência da Computação - UNICID
-LinkedIn | Portfólio
+```txt
+src/
+ ├── app/             # Rotas, Páginas e API Routes (Next.js)
+ ├── components/      # Componentes de UI e Reutilizáveis
+ ├── lib/             # Configurações globais e Utilitários
+ ├── services/        # Lógica de IA e Regras de Negócio
+ └── prisma/          # Modelagem do Banco de Dados
