@@ -72,6 +72,7 @@ Sou apaixonado por transformar ideias em soluções reais através da tecnologia
 ### 🏗 Estrutura do Repositório
 - `.github/`: Imagens, assets e fotos de perfil principais.
 - `projeto-neumorfismo/`: Código fonte e ecossistema do ModelColor v2.6.
+- `projeto-bubble/`: Aplicação web automatizada e governança de dados no Bubble.io.
 - `corrida-do-prompt/`: Relatório de evolução de imagens e metodologias de IA.
 - `batalha-de-modelos-ia/`: Estudo comparativo de LLMs utilizando estruturas XML.
 - `engenharia-reversa-ia/`: Reflexão analítica e diretrizes éticas sobre o uso de Gemini.
