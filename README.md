@@ -62,6 +62,7 @@ Sou apaixonado por transformar ideias em soluções reais através da tecnologia
 | Projeto | Tecnologia Principal | Visualizar |
 | :--- | :---: | :--- |
 | **🏎️ A Corrida do Prompt** | `Prompt Engineering` `Bloom/Fink` | [Ver Desafio](./corrida-do-prompt/) |
+|**🌐 Sistema Bubble.io** | `Low-Code` `Privacy Rules` | [Ver Aplicação](./projeto-bubble/) |
 | **⚔️ Batalha de Modelos** | `Prompt Engineering` `XML` | [Ver Comparativo](./batalha-de-modelos-ia/) |
 | **🔍 Engenharia Reversa** | `Ética` `Análise de IA` | [Ver Estudo](./engenharia-reversa-ia/) |
 | **🤖 Teachable Machine** | `IA / ML` `TensorFlow` | [Ver Atividade](./projeto-teachable-machine/) |
